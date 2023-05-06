@@ -6,6 +6,7 @@
 //8 4 2 4
 //Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
+
 int Promt (string message)
 {
     Console.Write(message);
@@ -13,6 +14,7 @@ int Promt (string message)
     int result = int.Parse (ReadInput);
     return result;
 }
+
 
 //Создание массива 
 int [,] GenerateArray(int row1, int colmn1, int maxValue, int minValue)
